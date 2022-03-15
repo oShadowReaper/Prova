@@ -1,0 +1,22 @@
+        var resultados = []
+
+    function calcular() {
+
+        let v = document.getElementById('V').value
+
+        let t = document.getElementById('T').value
+
+        let resultado = (parseFloat(v) / parseFloat(t)).toFixed(2) 
+
+        resultados.push(resultado)
+
+        document.getElementById('R').value = resultados
+
+}
+ 
+    const limpar = () => {
+
+            const campos = document.querySelectorAll('.inputo')
+            campos.forEach(campo => campo.value = "")
+            document.getElementById('V').dataset.index = 'new'
+    }
