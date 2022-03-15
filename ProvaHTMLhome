@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="prova.js"></script>
+    <link rel="stylesheet" href="prova.css">
+    <title>Prova HOME</title>
+</head>
+<body>
+    <div class="cabeçote"> 
+        <h1>Calculo de Velocidade Média</h1>
+    </div>
+
+    <nav class="menu">
+                <a href="prova.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+    </nav>  
+
+    <div class="calculo">
+        <label id="lcalculo">Cálculo</label>
+        <input type="number" class="inputo" data-index="new" placeholder="Informe o valor do deslocamento" id="V" required>
+        <input type="number" class="inputo" placeholder="Informe o intervalo de tempo" id="T" required>
+        <button class="butaum" onclick="calcular()">Calcular</button>
+        <button class="butaum" onclick="limpar()">Limpar</button>
+    </div>
+
+    <div class="resultado">
+        <label id="lresultado">Resultados:</label>
+        <textarea id="R" cols="30" rows="10"></textarea> 
+    </div>
+
+    <div class="pezin">
+        <p>Uma família viaja de São Paulo para o Rio de Janeiro, para passar as férias. A viagem
+            tem duração de 6 horas em um percurso de 435 km. Qual a velocidade média do automóvel?
+        </p>
+        <p>
+            Vm = 435/6 = 72.5 km/h
+        </p>
+    </div>
+</body>
+</html>
