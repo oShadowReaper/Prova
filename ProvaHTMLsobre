@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prova.css">
+    <title>Prova Sobre</title>
+</head>
+<body>
+    <div class="cabeçote"> 
+        <h1>Sobre mim</h1>
+    </div>
+    <nav class="menu">
+        <a href="prova.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+    <div class="info">
+        <label>Nome :</label>
+        <label>Luis Eduardo Camacho Santos</label>
+        <label>Data :</label>
+        <label>15/03/2022</label>
+        <label>Curso :</label>
+        <label>Codificando o Futuro</label>
+        <label>Semestre :</label>
+        <label>1º semestre</label>
+    </div>
+</body>
+</html>
